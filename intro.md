@@ -18,8 +18,13 @@ graph TD;
 - *Billions* of parameters.
 - **Huge** training data.
 - Training is **expensive** and requires specialized hardware.
+- optionally Instruction tuning
 - RLHF to incorporate *human feedback*.
-- Fine-tuning at the hands of the customer <!-- is this RAG? -->
+
+### Improvements by user / customer
+- Prompt 'engineering'
+- Use *RAG* to add data sources to context
+- Fine-tuning of model
 
 ## Limitations
 
