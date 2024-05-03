@@ -1,10 +1,33 @@
 # Introdcution
 
+## Breaking down texts
 
 ```mermaid
 graph TD;
     Text --> Token;
     Token --> Embedding;
     Embedding --> Vector;
-    Vector --> Vector Database;
+    Vector --> SimilarityMeasure
+    Vector --> VectorDatabase;
+    Embedding --> Transformers;
 ```
+
+## Modelling
+
+- *Attention* captures context.
+- *Billions* of parameters.
+- **Huge** training data.
+- Training is **expensive** and requires specialized hardware.
+- RLHF to incorporate *human feedback*.
+- Fine-tuning at the hands of the customer
+
+## Limitations
+
+- Math / logic / reasoning
+- Training data:
+    - Bias
+    - Cut-off date
+- Censorship by some vendors
+- Hallicunation
+- computationally expensive
+- Ethics and copyright issues
