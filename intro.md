@@ -19,7 +19,7 @@ graph TD;
 - **Huge** training data.
 - Training is **expensive** and requires specialized hardware.
 - RLHF to incorporate *human feedback*.
-- Fine-tuning at the hands of the customer
+- Fine-tuning at the hands of the customer <!-- is this RAG? -->
 
 ## Limitations
 
